@@ -15,6 +15,7 @@ import {
     useColorModeValue
 } from '@chakra-ui/react';
 import { HamburgerIcon } from '@chakra-ui/icons';
+import { ExternalLinkIcon } from '@chakra-ui/icons';
 import ThemeToggleButton from './layouts/theme-toggle-button';
 
 const LinkItem = ({ href, path, children }) => {
@@ -31,9 +32,10 @@ const LinkItem = ({ href, path, children }) => {
             </Link>
         </NextLink>
     )
-}
+};
 
 const Navbar = props => {
+    // const blogSiteLink = ``;
     const { path } = props
 
     return (
@@ -72,12 +74,12 @@ const Navbar = props => {
                     flexGrow={1}
                     mt={{base: 4, md: 0}}
                 >
-                    <LinkItem href="/works" path={path}>
-                        Works
+                    <LinkItem href="/projects" path={path}>
+                        Projects
                     </LinkItem>
-                    <LinkItem href="/works" path={path}>
-                        Blogs
-                    </LinkItem>
+                    <Link color='gray.900' href="https://shreya-blog.vercel.app/" isExternal>
+                        Blogs <ExternalLinkIcon mx='2px' />
+                    </Link>
                     <LinkItem href="/contact" path={path}>
                         Contact
                     </LinkItem>

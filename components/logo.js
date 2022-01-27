@@ -1,6 +1,6 @@
 import Link from 'next/link';
-import Image from 'next/image';
-import { Text, useColorModeValue } from '@chakra-ui/react';
+// import Image from 'next/image';
+import { Text, useColorModeValue, Image } from '@chakra-ui/react';
 import styled from '@emotion/styled';
 
 const LogoBox = styled.span`
@@ -18,17 +18,24 @@ const LogoBox = styled.span`
 `
 
 const Logo = () => {
-    const footPrintImg = `/images/planetpurple${useColorModeValue('', '-dark')}.jpg`;
+    const footPrintImg = ``;
 
     return (
         <Link href="/">
             <a>
                 <LogoBox>
-                    <Image src={footPrintImg} width={20} height={20} alt="logo"/>
+                <Image
+                    mt={5}
+                    boxSize='50px'
+                    borderRadius='full'
+                    src='/images/planetpurple.jpg'
+                    alt='Logo'
+                />
                     <Text 
                         color={useColorModeValue('gray.800', 'whiteAlpha.900')}
                         fontWeight="bold"
                         fontFamily="M PLUS Rounded 1c"
+                        mt={5}
                         ml={3}
                         >
                             Shreya Dhir

@@ -6,7 +6,12 @@ import {
   Image,
   useColorModeValue,
   Link,
-  Button
+  Button,
+  List,
+  ListItem,
+  ListIcon,
+  OrderedList,
+  UnorderedList,
 } from "@chakra-ui/react";
 import Section from '../components/section'
 import Paragraph from "../components/paragraph";
@@ -33,14 +38,14 @@ const Page = () => {
             align="center"
           >
             <Image 
-              borderColor="whiteAlpha.800" 
-              borderWidth={2} 
-              borderStyle="solid" 
-              maxWidth="100px" 
-              display="inline-block" 
+              borderColor="whiteAlpha.800"
+              borderWidth={2}
+              borderStyle="solid"
+              maxWidth="120px"
+              display="inline-block"
               borderRadius="full"
-              src="/images/shreya.jpeg" 
-              alt="Profile Image" 
+              src="/images/shreya_pic.jpeg"
+              alt="Profile Image"
             />
           </Box>
         </Box>
@@ -48,7 +53,7 @@ const Page = () => {
 
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
-            Work
+            About
         </Heading>
         <Paragraph>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt et cum illo ipsam, soluta inventore eligendi tenetur. Esse nisi sit dolores tempora, architecto omnis! Autem neque ipsum maiores natus eius
@@ -59,7 +64,7 @@ const Page = () => {
         </Paragraph>
 
         <Box align="center" my={4}>
-          <NextLink href="/works">
+          <NextLink href="/projects">
             <Button 
               rightIcon={<ChevronRightIcon />}
               colorScheme="teal"
@@ -76,8 +81,29 @@ const Page = () => {
         </Heading>
         <BioSection>
           <BioYear>Sept 2020 - Oct 2020</BioYear>
-            FoodsGully - React Native Intern
+            FoodsGully - React Native Intern <br />
         </BioSection>
+        <UnorderedList>
+          <ListItem>
+            Contributed to the design & development of a grocery mobileapplication (front-end) involving authentication flow, product items and cart.
+          </ListItem>
+          <ListItem>
+            Play Store Link: 
+          </ListItem>
+        </UnorderedList>
+        <br/>
+        <BioSection>
+          <BioYear>April 2020 - May 2020</BioYear>
+            Caramel IT Services <br />
+        </BioSection>
+        <UnorderedList>
+          <ListItem>
+            Contributed to the development & maintenance of a working and responsive web application (front-end) involving authentication, interactive e-learning platform and consortium.
+          </ListItem>
+          <ListItem>
+            Website Link: 
+          </ListItem>
+        </UnorderedList>
       </Section>
     </Container>
   )
