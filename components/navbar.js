@@ -77,7 +77,7 @@ const Navbar = props => {
                     <LinkItem href="/projects" path={path}>
                         Projects
                     </LinkItem>
-                    <Link color='gray.900' href="https://shreya-blog.vercel.app/" isExternal>
+                    <Link href="https://shreya-blog.vercel.app/" isExternal>
                         Blogs <ExternalLinkIcon mx='2px' />
                     </Link>
                     <LinkItem href="/contact" path={path}>
