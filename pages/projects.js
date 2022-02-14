@@ -1,8 +1,8 @@
 import { Grid, Container, Box, Heading, SimpleGrid, Divider } from '@chakra-ui/react'
 import Section from '../components/section';
-import { WorkGridItem } from '../components/grid-items'; 
-// import GridItem from '../components/grid-items'; 
-// import GridItemStyle from '../components/grid-items'; 
+import WorkGridItem from '../components/grid-items'; 
+// import GridItem } from '../components/grid-items'; 
+// import GridItemStyle }  from '../components/grid-items'; 
 
 // import forageThumb from '';
 import markdownThumb from '../public/images/planetpurple.jpg';
@@ -29,13 +29,13 @@ const Projects = () => {
                     </WorkGridItem>
                 </Section>
                 <Section>
-                    {/* <WorkGridItem 
+                     <WorkGridItem 
                         id="markdown" 
                         title="Markdown Editor" 
                         thumbnail={markdownThumb}
                     >
                         Allows user to write headers, emphasized text and incorporate links and images for user to convert text-to-HTML easy to read.
-                    </WorkGridItem> */}
+                    </WorkGridItem> 
                 </Section>
             </SimpleGrid>
         </Container>

@@ -56,8 +56,8 @@ const Page = () => {
             About
         </Heading>
         <Paragraph>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt et cum illo ipsam, soluta inventore eligendi tenetur. Esse nisi sit dolores tempora, architecto omnis! Autem neque ipsum maiores natus eius
-          <NextLink href="/works/covid-19-tracker">
+        I am a junior at Kalinga Institute of Industrial Technology, Bhubaneswar with close to 1 year of industry experience through internships and community projects. Proficient in varius front-end and back-end tecjnologies such as HTML, CSS, JavaScript, React.js, React Native, Node.js, GraphQL, and PostgreSQL.  
+        <NextLink href="/works/covid-19-tracker">
             <Link> Covid 19 Tracker</Link>
           </NextLink>
         .
