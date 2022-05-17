@@ -40,7 +40,7 @@ const Nav = styled.nav`
 
 const Logo = styled(Link)`
     padding: 20px 0;
-    color: rgb(248, 73, 73);
+    color: #3b75eb;
     text-decoration: none;
 `;
 
@@ -57,7 +57,7 @@ const NavLinks = styled(Link)`
 
 const New = styled.a`
     display: flex;
-    background-color: rgb(248, 73, 73);
+    background-color: #3b75eb;
     color: #ffffff;
     border-radius: 15px;
     font-size: 15px;
@@ -70,9 +70,9 @@ const New = styled.a`
 
     &:hover {
         background-color: #ffffff;
-        color: rgb(248, 73, 73);
+        color: #3b75eb;
         font-weight: 500;
-        border: 1.5px solid rgb(248, 73, 73);
+        border: 1.5px solid #3b75eb;
     }
 `;
 

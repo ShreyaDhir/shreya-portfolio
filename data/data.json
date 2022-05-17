@@ -1,6 +1,7 @@
 {
     "projects": [
         {    
+            "id": 1,
             "name": "Book Finder",
             "tech_stack": "React.js, Redux",
             "color": "#f2f2f2",
@@ -9,10 +10,10 @@
                 "gitText": "GitHub Link",
                 "liveurl": "https://github.com",
                 "liveText": "Live Demo"
-            },
-            "id": 1
+            }
         },
         {    
+            "id": 2,
             "name": "GitHub App",
             "tech_stack": "React.js, Redux",
             "color": "#f2f2f2",
@@ -21,8 +22,7 @@
                 "gitText": "GitHub Link",
                 "liveurl": "https://github.com",
                 "liveText": "Live Demo"
-            },
-            "id": 2
+            }
         },
         {    
             "name": "Markdown Editor",

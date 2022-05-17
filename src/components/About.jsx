@@ -12,12 +12,27 @@ const About = () => {
   return (
     <Hero>
       <Title>About</Title>
-      <TitularIntro>Hi, I'm Shreya.</TitularIntro>
+      <TitularIntro>
+        Hey, I'm <span style={{ color: "#3b75eb" }}>Shreya</span> 👋
+      </TitularIntro>
       <p>
-        Hello, I’m Shreya. I’m a junior at KIIT, Bhubaneshwar and a <strong>ReactJS</strong> and <strong>React Native</strong> developer. 
+        I’m a junior at KIIT, Bhubaneshwar and a{" "}
+        <strong>ReactJS</strong> and <strong>React Native</strong> developer.
         <br />
         <br />
-        Contact me on <a href="https://twitter.com/ShreyaDhir"><FontAwesomeIcon size={"xl"} icon={faTwitter} /></a>, <a href="https://github.com/ShreyaDhir"><FontAwesomeIcon size={"xl"} icon={faGithub} /> </a> and <a href="https://www.linkedin.com/in/shreya-dhir/"><FontAwesomeIcon size={"xl"} icon={faLinkedin} /></a>.
+        Contact me on{" "}
+        <a href="https://twitter.com/ShreyaDhir">
+          <FontAwesomeIcon size={"xl"} icon={faTwitter} />
+        </a>
+        ,{" "}
+        <a href="https://github.com/ShreyaDhir">
+          <FontAwesomeIcon size={"xl"} icon={faGithub} />{" "}
+        </a>{" "}
+        and{" "}
+        <a href="https://www.linkedin.com/in/shreya-dhir/">
+          <FontAwesomeIcon size={"xl"} icon={faLinkedin} />
+        </a>
+        .
         <br />
         <br />
       </p>

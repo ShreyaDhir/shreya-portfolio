@@ -6,7 +6,7 @@ const Footer = () => {
     <Foot>
       <p>© 2022</p>
       <p>All rights reserved.</p>
-      <p> Made with 🧡 and ⚛️ (React.js)</p>
+      <p> Made with 💙 and ⚛️ (React.js)</p>
     </Foot>
   );
 }

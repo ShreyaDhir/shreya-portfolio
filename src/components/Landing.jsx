@@ -10,8 +10,6 @@ import useFetch from './useFetch';
 import About from './About';
 
 // Icons in Json: https://gist.github.com/sakalauskas/b0c5049d5dc349713a82f1cb2a30b2fa
-  /* Practice */
-  /* Practice */
 
 const Landing = () => {
   const {
@@ -25,19 +23,15 @@ const Landing = () => {
     "https://my-json-server.typicode.com/ShreyaDhir/dummy-api/projects"
   );
 
-  // const handleDelete = (id) => {
-  //   const newBlogs = blogs.filter(blog => blog.id !== id)
-  //   setBlogs(newBlogs);
-  // };
-
-
   return (
     <Content>
       <About />
       <Divider sx={{ mb: 2 }} />
       {error && <div>{error}</div>}
       {isPending && <Spinner>Loading...</Spinner>}
-      {projects && <ProjectList projects={projects} title="Projects" />}
+      {projects && (
+        <ProjectList projects={projects} title="Projects" />
+      )}
       {blogs && <BlogList blogs={blogs} title="Blogs" />}
       <Divider sx={{ mt: 2 }} />
     </Content>
