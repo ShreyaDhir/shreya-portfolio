@@ -1,0 +1,60 @@
+{
+    "projects": [
+        {    
+            "name": "Book Finder",
+            "tech_stack": "React.js, Redux",
+            "color": "#f2f2f2",
+            "link": {
+                "giturl": "https://google.com",
+                "gitText": "GitHub Link",
+                "liveurl": "https://github.com",
+                "liveText": "Live Demo"
+            },
+            "id": 1
+        },
+        {    
+            "name": "GitHub App",
+            "tech_stack": "React.js, Redux",
+            "color": "#f2f2f2",
+            "link": {
+                "giturl": "https://google.com",
+                "gitText": "GitHub Link",
+                "liveurl": "https://github.com",
+                "liveText": "Live Demo"
+            },
+            "id": 2
+        },
+        {    
+            "name": "Markdown Editor",
+            "tech_stack": "React.js, Redux",
+            "color": "#f2f2f2",
+            "link": {
+                "giturl": "https://google.com",
+                "gitText": "GitHub Link",
+                "liveurl": "https://github.com",
+                "liveText": "Live Demo"
+            },
+            "id": 3
+        }
+    ],
+    "blogs": [
+        {    
+            "title": "Blog 1",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non rhoncus nunc. Nullam ac ullamcorper ante. Sed imperdiet ut magna non dapibus. Suspendisse scelerisque diam viverra, dictum quam non, pharetra nulla. Vivamus malesuada tincidunt ante sed placerat. Nam pharetra id felis ac aliquam. Nullam eget enim eget felis hendrerit bibendum eget eget velit. Aenean vel velit at justo ultricies maximus et eu leo.",
+            "date": "20-12-2020",
+            "id": 1
+        },
+        {   
+            "title": "Blog 2",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non rhoncus nunc. Nullam ac ullamcorper ante. Sed imperdiet ut magna non dapibus. Suspendisse scelerisque diam viverra, dictum quam non, pharetra nulla. Vivamus malesuada tincidunt ante sed placerat. Nam pharetra id felis ac aliquam. Nullam eget enim eget felis hendrerit bibendum eget eget velit. Aenean vel velit at justo ultricies maximus et eu leo.",
+            "date": "10-02-2021",
+            "id": 2
+        },
+        {    
+            "title": "Blog 1",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non rhoncus nunc. Nullam ac ullamcorper ante. Sed imperdiet ut magna non dapibus. Suspendisse scelerisque diam viverra, dictum quam non, pharetra nulla. Vivamus malesuada tincidunt ante sed placerat. Nam pharetra id felis ac aliquam. Nullam eget enim eget felis hendrerit bibendum eget eget velit. Aenean vel velit at justo ultricies maximus et eu leo.",
+            "date": "1-10-2022",
+            "id": 3
+        }
+    ]     
+}
